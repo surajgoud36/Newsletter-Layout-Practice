@@ -27,10 +27,10 @@ body {
 }
 #info {
   margin-bottom: 3.75rem;
-  max-width: 552px;
-  font-weight: 500;
-  font-size: 1rem;
-  color: #6C727F;
+  max-width: 700px;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #6c727f;
 }
 .card {
   padding: 1.5rem;
@@ -41,27 +41,58 @@ body {
   /* Box-shadow */
   box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03),
     0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+  max-width: 560px;
 }
 
 .email-container {
-  padding: 1.25rem;
   text-align: center;
   background-color: #f9fafb;
   border-radius: 0.5rem;
   margin-bottom: 1.25rem;
   font-weight: 600;
-  color: #6C727F;
+  color: #6c727f;
+}
+.email-inp {
+  background-color: transparent;
+  border: none;
+  font: inherit;
+  width: 100%;
+  text-align: center;
+  height: auto;
+  padding: 1.25rem;
+  
 }
 .subscribe-container {
-  padding: 1.25rem;
   text-align: center;
   background-color: #284bce;
   color: white;
   border-radius: 0.5rem;
   font-weight: 600;
 }
+.btn {
+  background-color: transparent;
+  border: none;
+  font: inherit;
+  width: 100%;
+  text-align: center;
+  height: auto;
+  padding: 1.25rem;
+  color: inherit;
+}
+input::placeholder {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #394150;
+
+  text-align: center;
+}
 .note-container {
   padding-top: 1.25rem;
   font-size: 0.875rem;
   color: #394150;
+}
+@media only screen and (max-width: 480px) {
+  .main-container {
+    margin: auto;
+  }
 }

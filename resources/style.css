@@ -41,11 +41,11 @@ body {
   /* Box-shadow */
   box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03),
     0px 8px 12px 0px rgba(0, 0, 0, 0.08);
-  max-width: 560px;
+  max-width: 552px;
+  width: 100%;
 }
 
 .email-container {
-  
   background-color: #f9fafb;
   border-radius: 0.5rem;
   margin-bottom: 1.25rem;
@@ -60,7 +60,6 @@ body {
   text-align: left;
   height: auto;
   padding: 1.25rem;
-  
 }
 .subscribe-container {
   text-align: center;
@@ -91,8 +90,12 @@ input::placeholder {
   font-size: 0.875rem;
   color: #394150;
 }
-@media only screen and (max-width: 480px) {
-  .main-container {
-    margin: auto;
+@media only screen and (max-width: 640px) {
+  .main-container h1 {
+    font-size: 2rem;
+  }
+  #info {
+    font-size: 1rem;
+    max-width: 560px;
   }
 }

@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.main-container h1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 600;
+}
+#info {
+  margin-bottom: 3.75rem;
+  max-width: 552px;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #6C727F;
+}
+.card {
+  padding: 1.5rem;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  /* Box-shadow */
+  box-shadow: 0px 20px 30px 0px rgba(0, 0, 0, 0.03),
+    0px 8px 12px 0px rgba(0, 0, 0, 0.08);
+}
+
+.email-container {
+  padding: 1.25rem;
+  text-align: center;
+  background-color: #f9fafb;
+  border-radius: 0.5rem;
+  margin-bottom: 1.25rem;
+  font-weight: 600;
+  color: #6C727F;
+}
+.subscribe-container {
+  padding: 1.25rem;
+  text-align: center;
+  background-color: #284bce;
+  color: white;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+.note-container {
+  padding-top: 1.25rem;
+  font-size: 0.875rem;
+  color: #394150;
+}
